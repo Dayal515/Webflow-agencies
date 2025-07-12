@@ -109,3 +109,16 @@ nav{
 .label{
   font-weight: 500;font-size: 18px;color: #000000;
 }
+/* footer */
+.footer-title{
+  font-weight: 900;font-size: 100px;color: #4E47FF;
+}
+.footer-description{
+  color: #8987a1;
+}
+.footer-list{
+  display: flex; color: #8987a1;justify-content: space-between;
+}
+footer{
+  text-align: center;
+}
