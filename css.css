@@ -98,3 +98,14 @@ nav{
   margin: 0 auto;
 }
 /* section-5 */
+
+.section-5{
+  display: flex;
+  justify-content: space-between;
+}
+.form-fill{
+  font-size: 20px;color: #00000050;
+}
+.label{
+  font-weight: 500;font-size: 18px;color: #000000;
+}
