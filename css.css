@@ -10,6 +10,9 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+main{
+  margin: 0 auto;max-width: 1140px;
+}
 header{
   background-image: url(B12A01-landing-launchpad/Assets/Hero-bg.png);
 }
@@ -29,7 +32,7 @@ nav{
 .font-page{
   text-align: center;
 }
-/* sextion-1 style */
+/* section-1 style */
 .section-1{
   display: flex;justify-content: space-between;
 }
@@ -42,12 +45,12 @@ nav{
 .section-1-description{
   font-size: 24px;color: #252432;
 }
-/* sextion-2 style */
+/* section-2 style */
 .section-2{
   padding: 50px 80px;border-radius: 24px;background-color: #4E47FF10;
 }
 .section-2-title{
-  font-weight: bold; font-size: 38px;color: #252432;
+  font-weight: bold; font-size: 38px;color: #252432;text-align: center;
 }
 .section-2-items{
   display: flex; justify-content: space-between;
@@ -58,3 +61,40 @@ nav{
 .section-2-item-des{
   font-size: 20px;color: #00000050;
 }
+/* section-3 styles */
+.section-3-title{
+  font-weight: bold; font-size: 42px;color: #252432;text-align: center;
+}
+.section-3-items{
+  display: flex;
+}
+.section-3-img{
+  border-radius: 9999px;
+}
+.reviewer-name{
+  color: #757575;
+}
+.review-date{
+  color: #b3b3b3;
+}
+.love{
+  color: #1e1e1e;
+}
+/* section-4 */
+.section-4-title{
+  font-weight: bold; font-size: 50px;color: #000000;text-align: center;
+}
+.section-4-des{
+  color: #00000050;text-align: center;
+}
+.section-4-img{
+  border-radius: 48px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.section-4-btn{
+  display: block;
+  margin: 0 auto;
+}
+/* section-5 */
